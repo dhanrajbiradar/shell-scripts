@@ -1,0 +1,22 @@
+You can use grep command to count the number of times "mauris" appears in the file as shown.
+  $ grep -o -i mauris example.txt | wc -l
+  
+  
+  Find and replace text within a file using sed command
+  sed -i 's/old-text/new-text/g' input.txt
+  
+  head by default prints 10 line
+ $ head -n 5 state.txt
+Andhra Pradesh
+Arunachal Pradesh
+Assam
+Bihar
+Chhattisgarh
+
+
+Without any option it display only the last 10 lines of the file specified.
+Example:
+
+$ tail state.txt
+
+$ tail -3 state.txt   last 3 lines prints
